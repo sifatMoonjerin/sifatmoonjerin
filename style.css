@@ -51,6 +51,26 @@ body {
   text-decoration: none;
 }
 
+#resume-button {
+  margin: 30px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: white;
+  color: #2a4158;
+  border: 2px solid #2a4158;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+#resume-button:hover, #resume-button:active {
+  background-color: #2a4158;
+  color: white;
+}
+
 @media (max-width: 480px) {
   #title {
     font-size: 48px;
@@ -62,6 +82,12 @@ body {
 
   .social-links a {
     font-size: 28px;
+  }
+
+  #resume-button {
+    margin: 20px;
+    font-size: 16px;
+    padding: 5px 10px;
   }
 }
 
@@ -77,5 +103,10 @@ body {
 
   .social-links a {
     font-size: 24px;
+  }
+
+  #resume-button {
+    font-size: 16px;
+    padding: 5px 10px;
   }
 }
